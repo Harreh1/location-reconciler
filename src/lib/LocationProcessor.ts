@@ -4,7 +4,6 @@
  * @param fileContent The content of the file to be formatted
  */
 export const formatStringIntoLists = (fileContent: string) => {
-    console.log('file', fileContent)
     if (!fileContent || fileContent.trim() === '') {
         throw new Error('File content cannot be empty')
     }
@@ -50,10 +49,12 @@ export const calculateLocationDifferences = (locationIds1: number[], locationIds
     // Order both the location arrays from smallest to largest
     locationIds1.sort((a, b) => a - b)
     locationIds2.sort((a, b) => a - b)
-    
+
     let totalDistance = 0
 
+    console.log(locationIds1, locationIds2)
     for (let i = 0; i < locationIds1.length; i++) {
+        console.log(Math.abs(locationIds1[i] - locationIds2[i]))
         totalDistance += Math.abs(locationIds1[i] - locationIds2[i]) 
     }
 
