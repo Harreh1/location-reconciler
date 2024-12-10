@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  background-color: #f4f4f9;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #264653;
+}
+
+.info {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: #405cf5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

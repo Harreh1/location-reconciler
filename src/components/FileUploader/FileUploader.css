@@ -1,0 +1,8 @@
+.btn-upload {
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+
+}
+
+.btn-upload:hover {
+    background-image: linear-gradient(144deg,#9F3FF0, #4B41E6 50%,#02aab5);
+}
